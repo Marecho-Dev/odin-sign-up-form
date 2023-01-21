@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    color: #5D6063;
+    background-color: #EAEDF0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+
+    display: flex;
+}
+.banner{
+    background-color:black;
+    width: 30%;
+    height: 100%;
+
+}
+
+.form_container{
+
+}
