@@ -120,7 +120,8 @@ body{
     width: 60%;
     color: #FFFFFF;
     background-color: #596d48;
-  
+    display:flex;
+    justify-content: center;
     border: none;
     border-radius: 8px;
   
