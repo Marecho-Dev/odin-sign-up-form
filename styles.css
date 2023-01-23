@@ -22,16 +22,16 @@ body{
     background-image:url("Assets/unsplash.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    width: 30%;
+    width: 45%;
     height: 100%;
 
 }
 
 .logo{
-    position:absolute;
+    position:relative;
     background-color: rgba(0,0,0,.5);
-    width:30%;
-    top: 15%;
+    width:100%;
+    top: 20%;
     font-size: 6em;
     display:flex;
     justify-content: center;
@@ -45,7 +45,7 @@ body{
     width: 1.1em;
     background-size:contain;
     background-repeat: no-repeat;
-    /* background-repeat:no-repeat; */
+    
 }
 .name{
     padding-top:4%;
@@ -97,6 +97,7 @@ body{
     flex-direction: column;
     flex-wrap:wrap;
     font-weight: 600;
+    color:#646b74;
     
 
 }
@@ -111,4 +112,18 @@ body{
     width: 100%;
     padding: 7px;
     font-size: 14px;
+  }
+
+  .form-row button {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 65%;
+    color: #FFFFFF;
+    background-color: #596d48;
+  
+    border: none;
+    border-radius: 8px;
+  
+    padding: 15px 40px;
+    cursor: pointer;
   }
