@@ -117,7 +117,7 @@ body{
   .form-row button {
     font-size: 1.5em;
     font-weight: bold;
-    width: 65%;
+    width: 60%;
     color: #FFFFFF;
     background-color: #596d48;
   
@@ -126,4 +126,18 @@ body{
   
     padding: 15px 40px;
     cursor: pointer;
+  }
+
+  span{
+    color: green;
+  }
+
+
+  .log-in{
+    font-family:sans-serif;
+    padding-left: 5%;
+    width: 80%;
+    gap: 5px;
+    font-weight: 600;
+    color:#646b74;
   }
