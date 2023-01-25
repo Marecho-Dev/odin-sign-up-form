@@ -1,10 +1,8 @@
-let passwordMatch = 0; //
 
-
-const div = document.createElement('div');
-div.classList.add('error-text');
-div.innerText = '*Passwords do not match';
-
+const errorDiv = document.createElement('div');
+errorDiv.classList.add('error-text');
+errorDiv.innerText = '*Passwords do not match';
+const passwordRow = document.querySelector('.password');
 function passMatch(){
     if(pass.value == pass2.value){
         pass.classList.remove('error');
@@ -13,16 +11,8 @@ function passMatch(){
     else{
         pass.classList.add('error');
         pass2.classList.add('error');
+        passwordRow.appendChild(errorDiv);
     }
-
-    // if(passwordMatch == 0){
-    //     pass.classList.add('error');
-    //     pass2.classList.add('error');
-    // }
-    // else{
-    //     pass.classList.remove('error');
-    //     pass2.classList.remove('error');
-    // }
 }
 const pass = document.querySelector('#password');
 const pass2 = document.querySelector('#confirm_password');
