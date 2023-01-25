@@ -7,6 +7,7 @@ function passMatch(){
     if(pass.value == pass2.value){
         pass.classList.remove('error');
         pass2.classList.remove('error');
+        passwordRow.removeChild(errorDiv);
     }
     else{
         pass.classList.add('error');
