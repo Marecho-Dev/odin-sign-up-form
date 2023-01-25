@@ -169,3 +169,8 @@ body{
     box-shadow: none;
 }
 
+.error-text{
+    font-size: 1em;
+    font-weight:100;
+    color: #D55C5F;
+}
