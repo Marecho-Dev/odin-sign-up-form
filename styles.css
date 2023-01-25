@@ -161,7 +161,7 @@ body{
 .form-row input[type='password']:invalid {
   border: 1px solid #D55C5F;
   color: #D55C5F;
-  box-shadow: none; /* Remove default red glow in Firefox */
+  box-shadow: none; 
 }
 
 .error{

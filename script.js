@@ -1,14 +1,12 @@
 let stringPass = "";
 let stringPass2 = "";
 let passwordMatch = 0;
-// function stringBuilder(string,char){
-//     if (char.length == 1){
-//         return string+char;
-//     }else{
-//         return stringPass;
-//     }
-   
-// }
+
+
+const div = document.createElement('div');
+div.classList.add('error-text');
+div.innerText = '*Passwords do not match';
+
 function passMatch(){
     if(pass.value == pass2.value){
         passwordMatch = 1;
@@ -30,13 +28,9 @@ const pass = document.querySelector('#password');
 const pass2 = document.querySelector('#confirm_password');
 
     pass.addEventListener('keyup',(e)=>{
-
-        console.log(pass.value);
-        // stringPass = stringBuilder(stringPass,e.key);
         passMatch()
     });
 
     pass2.addEventListener('keyup',(e)=>{
-        console.log(e);
         passMatch();
     });
