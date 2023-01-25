@@ -137,6 +137,10 @@ body{
     outline:none;
     /* border: 2px solid blue; */
 }
+.error:focus{
+    border: 1px solid #D55C5F !important;
+    box-shadow: none;
+}
   span{
     color: green;
   }
@@ -158,4 +162,9 @@ body{
   border: 1px solid #D55C5F;
   color: #D55C5F;
   box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.error{
+    border: 1px solid #D55C5F !important;
+    box-shadow: none;
 }
