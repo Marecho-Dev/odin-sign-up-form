@@ -47,6 +47,13 @@ body{
     background-repeat: no-repeat;
     
 }
+.credit{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    bottom: 5px;
+    left: 13%;
+}
 .name{
     padding-top:4%;
     font-family: Norse;
